@@ -19,6 +19,7 @@
   border: solid 1px black;
 }
 .imgBeast {
+  width: 400px;
   border: solid 2px black;
   border-radius: 25px;
   box-shadow: 7px 9px 24px 6px rgba(0, 0, 0, 0.53);
@@ -26,5 +27,6 @@
 
 }
 p{
-    line-height: 1px;
+    line-height: 24px;
+    margin: -1px;
 }
