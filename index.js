@@ -1,21 +1,18 @@
-const dados = require('./Index.json')
-console.log(dados)
+const dados = require("./Index.json");
 
 function exibInfo() {
-
-    const _objData = JSON.parse(dados)
-    console.log(dados)
-    let teste = (`<div id="infoBeast" class="infoBest">
+  let teste = `<div id="infoBeast" class="infoBest">
     <div class="flex-container">
-    <div class="titulo">Medusa</div>
+    <div class="titulo">${dados[0].titulo}</div>
     <div class=flex-conteudo>
-        <img class="imgBeast" src="https://s3.static.brasilescola.uol.com.br/be/2022/02/medusa.jpg">
+        <img class="imgBeast" src="${dados[0].imgBeast}">
             <div class="_infoBeast">
-                ${dados}
+               ${dados[0].infoBeast}
             </div>
         </div>
-    </div>`)
+    </div>`;
 
-    document.querySelector('#infoBeast').innerHTML = teste
-    console.log(_objData[infoBeast])
-}   
+  document.querySelector("#infoBeast").innerHTML = teste;
+}
+
+console.log(dados[0].infoBeast);
