@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+.titulo {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+.infoBest {
+  font-size: 20px;
+  border: solid 1px black;
+}
+.imgBeast {
+  border: solid 2px black;
+  border-radius: 25px;
+  box-shadow: 7px 9px 24px 6px rgba(0, 0, 0, 0.53);
+  margin-right: 100px;
+
+}
+p{
+    line-height: 1px;
+}
