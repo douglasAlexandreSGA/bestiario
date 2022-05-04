@@ -5,28 +5,34 @@
   justify-content: center;
 }
 .flex-conteudo {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
 .titulo {
   font-size: 25px;
   margin-bottom: 25px;
 }
-.infoBest {
-  font-size: 20px;
+._infoBeast{
   border: solid 1px black;
 }
+.infoBeast {
+  font-size: 20px;
+  
+}
 .imgBeast {
-  width: 400px;
   border: solid 2px black;
   border-radius: 25px;
   box-shadow: 7px 9px 24px 6px rgba(0, 0, 0, 0.53);
-  margin-right: 100px;
-
+ 
 }
-p{
-    line-height: 24px;
-    margin: -1px;
+p {
+  line-height: 24px;
+  margin: -1px;
 }

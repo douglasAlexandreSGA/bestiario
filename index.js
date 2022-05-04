@@ -5,19 +5,29 @@ const dados = [
     imgBeast: "https://s3.static.brasilescola.uol.com.br/be/2022/02/medusa.jpg",
   },
 ];
+/*function atualizaBotoes() { 
+  for (let i = 0, i < [dados.length], i++) {
 
+    const _dados = [dados];
+    const _dadosSelecionados = [titulo]
+    for 
+
+  }
+
+}*/
 function exibInfo() {
-  let teste = `<div id="infoBeast" class="infoBest">
+  
+  let _imgBeast = `<img class="imgBeast" src="${dados[0].imgBeast}">`
+  let teste = `<div id="infoBeast" class="infoBeast">
     <div class="flex-container">
     <div class="titulo">${dados[0].titulo}</div>
-    <div class=flex-conteudo>
-        <img class="imgBeast" src="${dados[0].imgBeast}">
+    <div class=flex-conteudo> 
             <div class="_infoBeast">
                ${dados[0].infoBeast}
             </div>
         </div>
     </div>`;
-
+  document.querySelector("#imgBeast").innerHTML = _imgBeast;
   document.querySelector("#infoBeast").innerHTML = teste;
 }
 
